@@ -1,0 +1,113 @@
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;400;700&display=swap');
+
+@import 'common/mixins';
+
+/* prettier-ignore */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, code, strong, em, img, b, u, i, ol, ul, li,
+table, tbody, tfoot, thead, tr, th, td,
+header, menu, nav, footer, article, aside {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+#app {
+  font-family: Arial, 'Avenir', Helvetica, Arial, sans-serif;
+  // font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color: #ecbe57;
+}
+
+body {
+  background: #1e1f24 url('../assets/bg-simple-1440.56.jpg') repeat-y center top / cover;
+  background-attachment: fixed;
+}
+
+input {
+  outline: none;
+  box-sizing: border-box;
+}
+
+b {
+  font-weight: 700;
+}
+
+// Typographics
+.font-light {
+  font-weight: 200;
+}
+
+.font-semibold {
+  font-weight: 500;
+}
+
+b,
+.font-bold {
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', 'Avenir', Helvetica, Arial, sans-serif;
+
+  sup {
+    font-size: x-small;
+    color: #9db9d1;
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    color: #2c3e50;
+  }
+}
+
+pre {
+  font-family: monospace;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Layout
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.self-left {
+  margin-right: auto;
+}
+
+.self-right {
+  margin-left: auto;
+}
