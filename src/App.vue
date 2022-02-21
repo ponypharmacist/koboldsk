@@ -19,7 +19,7 @@ export default {
   },
 
   mounted() {
-    this.onStartup();
+    // this.onStartup();
   },
 
   methods: {

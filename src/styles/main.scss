@@ -111,3 +111,25 @@ img {
 .self-right {
   margin-left: auto;
 }
+
+// sprites
+.e {
+  background: transparent url('~@/assets/sprites/entrance.png') no-repeat 50% 50% / 16px 16px;
+}
+.m {
+  background: transparent url('~@/assets/sprites/mountain-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.b {
+  background: transparent url('~@/assets/sprites/bush-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.t {
+  background: transparent url('~@/assets/sprites/tree-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.T {
+  background: transparent url('~@/assets/sprites/tree-2.png') no-repeat 50% 50% / 16px 16px;
+}
+
+// kobolds
+.a {
+  background: transparent url('~@/assets/sprites/k01.png') no-repeat 50% 50% / 16px 16px;
+}

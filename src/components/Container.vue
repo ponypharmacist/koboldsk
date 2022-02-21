@@ -1,6 +1,10 @@
 <template lang="pug">
-  .container.golden-border
-    village
+  .container-wrap
+    .container-controls.golden-border
+      controls
+
+    .container-grid.golden-border
+      village
 
     .roll-queue
       .queue-item(
@@ -21,12 +25,14 @@ import {
 //   clearLocalStorage,
 // } from '../helpers';
 
+import Controls from './Controls.vue';
 import Village from './Village.vue';
 
 export default {
   name: 'container',
 
   components: {
+    Controls,
     Village,
   },
 
@@ -52,8 +58,17 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.container
-  // height: 100%
+.container-wrap
+  display: flex
+  width: calc(832px + 100px + 24px + 240px)
+  margin: 32px auto 0
+
+.container-grid
+  width: calc(832px + 100px)
+
+.container-controls
+  width: 240px
+  margin-right: 24px
 
 // Roll log window
 .roll-queue
