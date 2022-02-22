@@ -18,8 +18,7 @@ export default {
   name: 'controls',
 
   data: () => ({
-    controlList: ['e', 'm', 'b', 't', 'T', 'a'],
-    koboldLetters: ['a'],
+    controlList: ['0', 'e', 'm', 'b', 't', 'T'],
   }),
 
   computed: {

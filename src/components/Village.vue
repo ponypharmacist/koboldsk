@@ -37,10 +37,15 @@ export default {
     ]),
   },
 
+  mounted() {
+    this.myFunction();
+  },
+
   methods: {
     ...mapActions('main', [
       'onStartup',
       'placeItem',
+      'animateKobolds',
     ]),
 
     koboldStyle(x, y) {
@@ -48,6 +53,15 @@ export default {
         left: `${x * 18 + 1}px`,
         top: `${y * 18 + 1}px`,
       };
+    },
+
+    myFunction() {
+      this.animateKobolds();
+      // Movement interval in seconds
+      const min = 2;
+      const max = 4;
+      const rand = Math.floor(Math.random() * (max - min + 1) + min); // Generate Random number
+      setTimeout(this.myFunction, rand * 1000);
     },
   },
 };
@@ -80,4 +94,5 @@ $green: #4dde14
   z-index: 1
   width: 16px
   height: 16px
+  transition: all 0.25s ease
 </style>
