@@ -60,11 +60,12 @@ export default {
 <style lang="sass" scoped>
 .container-wrap
   display: flex
-  width: calc(832px + 100px + 24px + 240px)
+  width: calc(832px + 24px + 240px)
   margin: 32px auto 0
 
 .container-grid
-  width: calc(832px + 100px)
+  width: calc(832px)
+  background-color: #1a1f1b
 
 .container-controls
   width: 240px

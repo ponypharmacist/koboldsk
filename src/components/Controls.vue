@@ -18,7 +18,7 @@ export default {
   name: 'controls',
 
   data: () => ({
-    controlList: ['0', 'e', 'm', 'b', 't', 'T'],
+    controlList: ['0', 'e', 'm', 'b', 't', 'T', 'g', 'G', 'r', 'R', 'h'],
   }),
 
   computed: {

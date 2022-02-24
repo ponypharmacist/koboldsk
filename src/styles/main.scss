@@ -112,15 +112,32 @@ img {
   margin-left: auto;
 }
 
-// sprites
+/////////////
+// sprites //
+/////////////
+.b {
+  background: transparent url('~@/assets/sprites/bush-1.png') no-repeat 50% 50% / 16px 16px;
+}
 .e {
   background: transparent url('~@/assets/sprites/entrance.png') no-repeat 50% 50% / 16px 16px;
+}
+.g {
+  background: transparent url('~@/assets/sprites/grass-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.G {
+  background: transparent url('~@/assets/sprites/grass-2.png') no-repeat 50% 50% / 16px 16px;
+}
+.h {
+  background: transparent url('~@/assets/sprites/house-1.png') no-repeat 50% 50% / 16px 16px;
 }
 .m {
   background: transparent url('~@/assets/sprites/mountain-1.png') no-repeat 50% 50% / 16px 16px;
 }
-.b {
-  background: transparent url('~@/assets/sprites/bush-1.png') no-repeat 50% 50% / 16px 16px;
+.r {
+  background: transparent url('~@/assets/sprites/road-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.R {
+  background: transparent url('~@/assets/sprites/road-2.png') no-repeat 50% 50% / 16px 16px;
 }
 .t {
   background: transparent url('~@/assets/sprites/tree-1.png') no-repeat 50% 50% / 16px 16px;
@@ -129,7 +146,9 @@ img {
   background: transparent url('~@/assets/sprites/tree-2.png') no-repeat 50% 50% / 16px 16px;
 }
 
-// kobolds
+/////////////
+// kobolds //
+/////////////
 .k01 {
   background: transparent url('~@/assets/sprites/k01.png') no-repeat 50% 50% / 16px 16px;
 }

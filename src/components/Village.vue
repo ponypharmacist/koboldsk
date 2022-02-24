@@ -50,8 +50,8 @@ export default {
 
     koboldStyle(x, y) {
       return {
-        left: `${x * 18 + 1}px`,
-        top: `${y * 18 + 1}px`,
+        left: `${x * 16}px`,
+        top: `${y * 16}px`,
       };
     },
 
@@ -82,9 +82,7 @@ $green: #4dde14
   flex: 0 0 auto
   width: 16px
   height: 16px
-  margin: 1px
   border-radius: 2px
-  background-color: rgba(255, 255, 255, 0.05)
 
   &:hover
     background-color: rgba(255, 255, 255, 0.2)
@@ -94,5 +92,5 @@ $green: #4dde14
   z-index: 1
   width: 16px
   height: 16px
-  transition: all 0.25s ease
+  transition: all 0.5s ease
 </style>

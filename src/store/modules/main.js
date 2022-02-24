@@ -13,7 +13,7 @@ function defaultGrid() {
 }
 
 function findRandomTileToMove({ grid, kobolds }, x, y) {
-  const allowedTerrain = ['0'];
+  const allowedTerrain = ['0', 'g', 'G', 'r', 'R'];
   let directions = [];
   const koboldsCoords = kobolds.map((k) => `${k.x},${k.y}`);
 
