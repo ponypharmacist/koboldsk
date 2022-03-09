@@ -115,11 +115,60 @@ img {
 /////////////
 // sprites //
 /////////////
+.a, .c {
+  &:before {
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    width: 16px;
+    height: 32px;
+    z-index: 1;
+  }
+}
+.c {
+  &:before {
+    height: 24px;
+  }
+}
+
+// double tiles
+.a:before {
+  background: transparent url('~@/assets/sprites/box-1.png') no-repeat 50% 100% / 16px 32px;
+}
+.c:before {
+  background: transparent url('~@/assets/sprites/grass-3.png') no-repeat 50% 100% / 16px 24px;
+}
+// Normal tiles
+.A {
+  background: transparent url('~@/assets/sprites/bucket-1.png') no-repeat 50% 50% / 16px 16px;
+}
 .b {
   background: transparent url('~@/assets/sprites/bush-1.png') no-repeat 50% 50% / 16px 16px;
 }
+.B {
+  background: transparent url('~@/assets/sprites/dirt-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.C {
+  background: transparent url('~@/assets/sprites/grass-4.png') no-repeat 50% 50% / 16px 16px;
+}
+.d {
+  background: transparent url('~@/assets/sprites/tent-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.D {
+  background: transparent url('~@/assets/sprites/torch-1.gif') no-repeat 50% 50% / 16px 16px;
+}
 .e {
   background: transparent url('~@/assets/sprites/entrance.png') no-repeat 50% 50% / 16px 16px;
+}
+.E {
+  background: transparent url('~@/assets/sprites/mushroom-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.f {
+  background: transparent url('~@/assets/sprites/potato-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.F {
+  background: transparent url('~@/assets/sprites/potato-2.png') no-repeat 50% 50% / 16px 16px;
 }
 .g {
   background: transparent url('~@/assets/sprites/grass-1.png') no-repeat 50% 50% / 16px 16px;
@@ -129,6 +178,15 @@ img {
 }
 .h {
   background: transparent url('~@/assets/sprites/house-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.H {
+  background: transparent url('~@/assets/sprites/log-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.i {
+  background: transparent url('~@/assets/sprites/rock-1.png') no-repeat 50% 50% / 16px 16px;
+}
+.I {
+  background: transparent url('~@/assets/sprites/rock-2.png') no-repeat 50% 50% / 16px 16px;
 }
 .m {
   background: transparent url('~@/assets/sprites/mountain-1.png') no-repeat 50% 50% / 16px 16px;

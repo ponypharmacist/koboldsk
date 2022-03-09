@@ -79,6 +79,7 @@ $green: #4dde14
   display: flex
 
 .village-cell
+  position: relative
   flex: 0 0 auto
   width: 16px
   height: 16px

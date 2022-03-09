@@ -18,7 +18,14 @@ export default {
   name: 'controls',
 
   data: () => ({
-    controlList: ['0', 'e', 'm', 'b', 't', 'T', 'g', 'G', 'r', 'R', 'h'],
+    controlList: [
+      '0', 'e', 'm', 'b', 't', 'T',
+      'g', 'G', 'c', 'C', 'r', 'R', // Grass 1-4, Road 1-2
+      'h', 'd', 'D', // House, tent, torch
+      'a', 'A', // Box, bucket
+      'B', 'i', 'I', // Dirt, Rock 1-2
+      'E', 'f', 'F', 'H', // Mushroom, Potato 1-2, Log
+    ],
   }),
 
   computed: {
@@ -44,6 +51,7 @@ $yellow: #ecbe57
   flex-wrap: wrap
 
 .control-button
+  position: relative
   width: 20px
   height: 20px
   margin: 0 0 4px 4px
